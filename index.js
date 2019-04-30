@@ -48,16 +48,14 @@ function total() {
 
 function removeFromCart(item) {
   // write your code here
-while (cart[i].itemName) {
-  if (item !== cart[i].itemName) {
-    i++;
-  }
-  else if (item === cart[i].itemName) {
+for(let i = 0;i < cart.length;i++) {
+  if(item === cart[i].itemName) {
     cart.splice(i,1);
-    break;
-    }
   }
-  return cart;
+  if(cart.splice !== NaN) {
+    return 
+  }
+}
 }
 
 function placeOrder(cardNumber) {
