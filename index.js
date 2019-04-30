@@ -63,4 +63,7 @@ for(let i = cart.length-1;i >= 0;i--) {
 
 function placeOrder(cardNumber) {
   // write your code here
+  if(cardNumer === isNan) {
+    return ""
+  }
 }
