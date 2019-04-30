@@ -48,12 +48,13 @@ function total() {
 
 function removeFromCart(item) {
   // write your code here
+let cartTemp = cart;
 for(let i = cart.length-1;i >= 0;i--) {
   if(item === cart[i].itemName) {
     cart.splice(i,1);
     }
 }
-  if(cart.splice === isNaN) {
+  if(cartTemp === cart) {
     return "That item is not in your cart.";
   }
   else { return cart;}
